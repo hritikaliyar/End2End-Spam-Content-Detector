@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    color: rgb(3, 3, 49);
+    background-image: url('email2.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  h1{
+    background-color: rgb(241, 241, 87);
+  }
+  p.result{
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+  }
+
+  #button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #3498db; /* Border color */
+    color: #f04d0c; /* Text color */
+    background-color:yellow;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  #button:hover {
+    background-color: #db34b7; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+    border-color: #3498db; /* Border color on hover */
+  }
