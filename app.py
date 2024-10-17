@@ -6,6 +6,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import pickle
 import re
 import nltk
+nltk.download('punkt_tab')
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 nltk.download('punkt')
