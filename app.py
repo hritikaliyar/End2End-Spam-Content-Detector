@@ -12,6 +12,7 @@ from nltk.stem import WordNetLemmatizer
 nltk.download('punkt')
 nltk.download('stopwords')
 lemmatizer=WordNetLemmatizer()
+nltk.download('wordnet')
 app1=Flask(__name__,template_folder='template')
 app=app1
 
