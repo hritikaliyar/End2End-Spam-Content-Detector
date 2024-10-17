@@ -19,7 +19,7 @@ bow_model=pickle.load(open('models/bag of words .pkl','rb'))
 def homepage(): 
      return render_template('index.html')
  
-@app.route('/find_data',methods=['GET','POST'])
+@app.route('/find_data',methods=['POST'])
 def find_data():
     emoji1 = '😊'
     angry_emoji = '😠'
